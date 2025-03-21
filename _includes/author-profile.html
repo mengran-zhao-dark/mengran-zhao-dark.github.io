@@ -159,7 +159,7 @@
 
       <!-- Font Awesome icons / Mode Switch -->
       {% if author.mode %}
-        <li><a href="https://mengran-zhao.github.io/" target="_blank"><i class="fas fa-fw fa-sun icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Light Mode" }}</a></li>
+        <li><a href="{{ author.mode }}" target="_blank"><i class="fas fa-fw fa-sun icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Light Mode" }}</a></li>
       {% endif %}
       
     </ul>
