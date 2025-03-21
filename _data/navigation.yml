@@ -21,7 +21,7 @@ main:
     url: /awards/
 
   - title: "中文版"
-    url: "https://mengran-zhao-zh.github.io"
+    url: "https://mengran-zhao-zh-dark.github.io"
     external: true
     
   #- title: "Talks"
